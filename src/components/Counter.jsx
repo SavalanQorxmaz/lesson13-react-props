@@ -32,11 +32,13 @@ const Counter = () => {
     return (
 
 
+
      <div className="counter">
     <Button newClass ={"decButton"} onClick = {()=>changeCount(-1)}  value ="-"/>
     <span>{count}</span>
     <Button newClass = {"incButton"} onClick= {()=>changeCount(1)} value ={"+"}/>
         </div>
+     
       
   
   )
