@@ -3,7 +3,7 @@ import logo from "../images/logo.jpg"
 
 import React from 'react'
 
-const Header = () => {
+const Header = ({saygac}) => {
   return (
     <div className="header">
         <div className="container">
@@ -15,6 +15,9 @@ const Header = () => {
                 <li>three</li>
                 <li>four</li>
             </ul>
+
+            <i className ="fa-solid fa-basket-shopping"></i>
+            <span>{saygac}</span>
          </div>
         </div>
     </div>

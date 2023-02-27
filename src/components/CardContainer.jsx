@@ -7,7 +7,7 @@ import Card from './Card';
 import {DB} from "../database/DB"
 
 
-const CardContainer = () => {
+const CardContainer = ({saygacF}) => {
 
 
 
@@ -26,6 +26,7 @@ DB.map((value) =>
   descriptionCard = {value.description.slice(0, 50)+ "..."}
   imageCard = {value.image}
   priceCard = {value.price}
+  saygacF = {saygacF}
   />
 
 

@@ -8,9 +8,9 @@ import Counter from '../components/Counter'
 
 import CardContainer from '../components/CardContainer'
 
-const Home = () => {
 
- 
+const Home = ({saygacF}) => {
+
 
 
   return (
@@ -18,9 +18,10 @@ const Home = () => {
 
 <div className="container">
 
+
 <Counter/>
 
-<CardContainer/>
+<CardContainer saygacF = {saygacF}/>
 
 
 </div>
